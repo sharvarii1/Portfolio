@@ -100,7 +100,7 @@ export const projectsData = [
     ],
     repoLink: "https://github.com/your-username/word-analytics",
   },
-] as const;
+] ;
 
 export const skillsData = [
   "HTML",
