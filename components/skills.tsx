@@ -44,7 +44,7 @@ export default function Skills() {
         {Object.entries(categorizedSkills).map(([category, skills], i) => (
           <div
             key={category}
-            className="rounded-xl border border-gray-300 dark:border-white/10 p-4 bg-white dark:bg-white/5"
+            className="rounded-xl border border-gray-300 dark:border-white/10 p-4 bg-gray-100 dark:bg-white/5"
           >
             <h3 className="text-lg font-semibold mb-2 text-teal-500">{category.replace("_", "/")}</h3>
             <ul className="flex flex-wrap gap-2">

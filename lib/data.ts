@@ -62,64 +62,65 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Road Anomaly Detection",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Developed a road anomaly detection system using YOLOv9 for high-precision object detection and Leaflet for spatial visualization.",
+    tags: ["YOLOv9", "Python", "Leaflet", "React.js", "Computer Vision"],
     points: [
-      "Built dynamic company feedback pages using Next.js API routes and MongoDB.",
-      "Integrated voting system to upvote useful feedback.",
-      "Implemented hashtag-based filtering and comment tagging.",
-      "Handled secure user authentication and form validation."
+      "Used YOLOv9 model for detecting road anomalies like potholes and cracks with high precision.",
+      "Visualized detected anomalies on interactive maps using Leaflet.",
+      "Built a React.js frontend to display real-time results and mapped coordinates.",
+      "Collaborated with mentor A.M. Jagtap and integrated spatial data pipelines."
     ],
-    repoLink: "https://github.com/your-username/corpcomment",
+    repoLink: "https://github.com/sharvarii1/Pdf_Q-A_chatbot",
   },
   {
-    title: "rmtDev",
+    title: "Conversational Q&A Chatbot with PDF",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Built a conversational chatbot that extracts and answers questions from PDF documents using LLMs and LangChain.",
+    tags: ["LangChain", "LLM", "Ollama", "VectorStore", "LangServe", "NLP"],
     points: [
-      "Implemented advanced search with debounce and dynamic filtering.",
-      "Added pagination and infinite scroll for better UX.",
-      "Created bookmark feature using Redux state management.",
-      "Used URL query params for shareable job search links."
+      "Developed a Q&A chatbot capable of understanding and responding to queries based on PDF content.",
+      "Integrated LangChain and Ollama-powered LLMs for natural language understanding.",
+      "Implemented vector-based document retrieval for accurate context-aware answers.",
+      "Deployed the solution using LangServe for efficient and scalable access."
     ],
-    repoLink: "https://github.com/your-username/rmtdev",
+    repoLink: "https://github.com/sharvarii1/Potholes-Mapping",
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    points: [
-      "Built real-time text analysis using React state and hooks.",
-      "Used SQL backend to log analytics data (e.g., usage metrics).",
-      "Implemented responsive design and animations with Framer Motion.",
-      "Displayed platform-specific post limits like Twitter, Instagram."
+    title: "Customer Churn Prediction",
+  description:
+    "Developed a machine learning system to predict customer churn using best practices in feature engineering and classification with Artificial Neural Networks (ANN).",
+  tags: ["TensorFlow", "ANN", "Machine Learning", "Feature Engineering", "Streamlit"],
+  points: [
+    "Performed data preprocessing and feature engineering to enhance model accuracy.",
+    "Built a classification model using Artificial Neural Networks (ANN) with TensorFlow.",
+    "Trained the model to predict whether a customer will stay or leave based on historical data.",
+    "Deployed the model using Streamlit for interactive and user-friendly access."
     ],
-    repoLink: "https://github.com/your-username/word-analytics",
+    repoLink: "https://github.com/sharvarii1/Company_churn_analysis",
   },
+  
 ] ;
 
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
-] as const;
+// export const skillsData = [
+//   "HTML",
+//   "CSS",
+//   "JavaScript",
+//   "TypeScript",
+//   "React",
+//   "Next.js",
+//   "Node.js",
+//   "Git",
+//   "Tailwind",
+//   "Prisma",
+//   "MongoDB",
+//   "Redux",
+//   "GraphQL",
+//   "Apollo",
+//   "Express",
+//   "PostgreSQL",
+//   "Python",
+//   "Django",
+//   "Framer Motion",
+// ] as const;
