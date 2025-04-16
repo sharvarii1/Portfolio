@@ -74,19 +74,7 @@ export const projectsData = [
     ],
     repoLink: "https://github.com/sharvarii1/Pdf_Q-A_chatbot",
   },
-  {
-    title: "Conversational Q&A Chatbot with PDF",
-    description:
-      "Built a conversational chatbot that extracts and answers questions from PDF documents using LLMs and LangChain.",
-    tags: ["LangChain", "LLM", "Ollama", "VectorStore", "LangServe", "NLP"],
-    points: [
-      "Developed a Q&A chatbot capable of understanding and responding to queries based on PDF content.",
-      "Integrated LangChain and Ollama-powered LLMs for natural language understanding.",
-      "Implemented vector-based document retrieval for accurate context-aware answers.",
-      "Deployed the solution using LangServe for efficient and scalable access."
-    ],
-    repoLink: "https://github.com/sharvarii1/Potholes-Mapping",
-  },
+
   {
     title: "Employee Churn Prediction",
   description:
@@ -100,6 +88,20 @@ export const projectsData = [
     ],
     repoLink: "https://github.com/sharvarii1/Company_churn_analysis",
   },
+  {
+    title: "PetSoft – Pet Day Care Management System",
+    description:
+      "Developed a user-friendly application to streamline pet day care operations, integrating modern web technologies and secure payment processing.",
+    tags: ["Next.js", "Prisma", "Stripe", "TypeScript", "NextAuth", "Zod"],
+    points: [
+      "Built a responsive web application for managing pet details and owner records.",
+      "Integrated secure payment handling through Stripe for seamless transactions.",
+      "Implemented authentication and authorization using NextAuth.",
+      "Used Prisma ORM for efficient database interactions and schema management.",
+      "Ensured robust input validation using Zod for safe and consistent user input handling."
+    ],
+    repoLink: "https://github.com/sharvarii1/PetSoft", // Replace with actual link if different
+  }
   
 ] ;
 

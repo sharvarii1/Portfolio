@@ -8,6 +8,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import myphoto from "@/public/My_photo.png"
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -53,7 +54,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+            
           </motion.span>
         </div>
       </div>
@@ -64,9 +65,12 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Sharvari.</span> I'm a{" "}
-        <span className="font-bold">AI/ML developer</span>  with a strong foundation in{" "}
-  <span className="italic">problem-solving</span> and{" "}
-  <span className="italic">computer fundamentals</span>.
+<span className="font-bold">Software Developer</span> with a keen interest in{" "}
+<span className="font-bold">AI/ML</span> and{" "}
+<span className="font-bold">Backend development</span>, and a strong foundation in{" "}
+<span className="italic">problem-solving</span> and{" "}
+<span className="italic">computer fundamentals</span>.
+
       </motion.h1>
 
       <motion.div
@@ -97,7 +101,22 @@ export default function Intro() {
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
+        
+<a
+  className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+  href="https://leetcode.com/yourusername"
+  target="_blank"
+>
+  <SiLeetcode />
+</a>
 
+<a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://github.com/sharvarii1"
+          target="_blank"
+        >
+          <FaGithubSquare />
+        </a>
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/sharvarii/"
@@ -106,13 +125,7 @@ export default function Intro() {
           <BsLinkedin />
         </a>
 
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/sharvarii1"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+        
       </motion.div>
     </section>
   );
