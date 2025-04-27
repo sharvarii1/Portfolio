@@ -62,6 +62,21 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Document Q&A Chatbot",
+    description: 
+      "Built an intelligent document question-answering system using LlamaIndex for RAG implementation and ChromaDB for vector storage.",
+    tags: ["LlamaIndex", "ChromaDB", "Streamlit", "Groq API", "HuggingFace"],
+    points: [
+      "Implemented LlamaIndex for efficient document ingestion and retrieval augmented generation (RAG)",
+      "Created persistent vector storage using ChromaDB for scalable semantic search",
+      "Developed an interactive Streamlit frontend for user-friendly document queries",
+      "Integrated Groq's high-performance LLM API for rapid response generation",
+      "Utilized HuggingFace embeddings for accurate document representation and retrieval"
+    ],
+    repoLink: "https://github.com/sharvarii1/LLama_index_pdf_Q-A",
+},
+  
+  {
     title: "Road Anomaly Detection",
     description:
       "Developed a road anomaly detection system using YOLOv9 for high-precision object detection and Leaflet for spatial visualization.",
@@ -72,7 +87,7 @@ export const projectsData = [
       "Built a React.js frontend to display real-time results and mapped coordinates.",
      "Collaborated with mentor A.M. Jagtap and followed an effective project development process from design to deployment."
     ],
-    repoLink: "https://github.com/sharvarii1/Pdf_Q-A_chatbot",
+    repoLink: "https://github.com/sharvarii1/Potholes-Mapping",
   },
 
   {
@@ -100,7 +115,7 @@ export const projectsData = [
       "Used Prisma ORM for efficient database interactions and schema management.",
       "Ensured robust input validation using Zod for safe and consistent user input handling."
     ],
-    repoLink: "https://github.com/sharvarii1/PetSoft", // Replace with actual link if different
+    repoLink: "https://github.com/sharvarii1/PetSoft", 
   }
   
 ] ;
