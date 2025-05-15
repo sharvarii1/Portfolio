@@ -21,11 +21,11 @@ const fadeInAnimationVariants = {
 
 const categorizedSkills = {
   Languages: ["Python", "JavaScript", "TypeScript", "C++", "SQL"],
-  AI_ML: ["Tensorflow", "NLP", "Langchain","LLamaIndex","YOLO"],
+  AI_ML: [ "NLP", "Langchain","LLamaIndex","YOLO"],
   Frontend: ["React.js", "Next.js", "TailwindCSS", "HTML", "CSS"],
-  Backend: ["Express.js", "Node.js", "Prisma"],
-  Databases: ["MongoDB", "PostgreSQL","Sqlite","ChromaDB"],
-  DevOps: ["Git", "GitHub", "AWS"],
+  Backend: ["Express.js", "Node.js", "Prisma","Redis"],
+  Databases: ["MongoDB", "PostgreSQL","Supabase"],
+  DevOps: ["Git", "GitHub","Docker"],
   SoftSkills: ["Communication", "Structured Thinking", "Problem-Solving"],
 };
 

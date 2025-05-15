@@ -66,8 +66,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Sharvari.</span> I'm a{" "}
 <span className="font-bold">Software Developer</span> with a keen interest in{" "}
-<span className="font-bold">AI/ML</span> and{" "}
-<span className="font-bold">Backend development</span>, and a strong foundation in{" "}
+<span className="font-bold">Full Stack Development</span> and{" "}
+<span className="font-bold">AI/ML</span>, and a strong foundation in{" "}
 <span className="italic">problem-solving</span> and{" "}
 <span className="italic">computer fundamentals</span>.
 

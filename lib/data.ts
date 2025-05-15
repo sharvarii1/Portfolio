@@ -1,10 +1,10 @@
-// import React from "react";
-// import { CgWorkAlt } from "react-icons/cg";
-// import { FaReact } from "react-icons/fa";
-// import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
+import React from "react";
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
+import corpcommentImg from "@/public/corpcomment.png";
+import rmtdevImg from "@/public/rmtdev.png";
+import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -23,42 +23,30 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Contact",
     hash: "#contact",
   },
 ] as const;
 
-// export const experiencesData = [
-//   {
-//     title: "Graduated bootcamp",
-//     location: "Miami, FL",
-//     description:
-//       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-//     icon: React.createElement(LuGraduationCap),
-//     date: "2019",
-//   },
-//   {
-//     title: "Front-End Developer",
-//     location: "Orlando, FL",
-//     description:
-//       "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-//     icon: React.createElement(CgWorkAlt),
-//     date: "2019 - 2021",
-//   },
-//   {
-//     title: "Full-Stack Developer",
-//     location: "Houston, TX",
-//     description:
-//       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-//     icon: React.createElement(FaReact),
-//     date: "2021 - present",
-//   },
-// ] as const;
+export const experiencesData = [
+  {
+    title: "Full Stack Development Intern",
+    location: "Vivid Mynd (Remote)",
+    description: [
+      "Built and optimized responsive UI components using Next.js for enhanced user experience",
+      "Worked with PostgreSQL and Supabase to design and manage scalable backend services",
+      "Implemented a Retrieval-Augmented Generation (RAG) data ingestion pipeline for client-specific use cases",
+      "Collaborated with a cross-functional team to deliver production-ready features under tight deadlines"
+    ],
+    icon: React.createElement(FaReact),
+    date: "May 2025 - Present",
+  }
+] as const;
 
 export const projectsData = [
   {
@@ -88,20 +76,6 @@ export const projectsData = [
      "Collaborated with mentor A.M. Jagtap and followed an effective project development process from design to deployment."
     ],
     repoLink: "https://github.com/sharvarii1/Potholes-Mapping",
-  },
-
-  {
-    title: "Employee Churn Prediction",
-  description:
-    "Developed a machine learning system to predict employee churn using best practices in feature engineering and classification with Artificial Neural Networks (ANN).",
-  tags: ["TensorFlow", "ANN", "Machine Learning", "Feature Engineering", "Streamlit"],
-  points: [
-    "Performed data preprocessing and feature engineering to enhance model accuracy.",
-    "Built a classification model using Artificial Neural Networks (ANN) with TensorFlow.",
-    "Trained the model to predict whether a employee will stay or leave based on historical data.",
-    "Deployed the model using Streamlit for interactive and user-friendly access."
-    ],
-    repoLink: "https://github.com/sharvarii1/Company_churn_analysis",
   },
   {
     title: "PetSoft – Pet Day Care Management System",
